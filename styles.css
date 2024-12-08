@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.principal {
+    display: flex;
+    gap: 10px;
+    max-width: 1200px; /* Limita a largura do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+@media(max-width: 720px) {
+    .principal {
+        flex-direction: column;
+    }
+    .listacards {
+        align-items: center;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+
+.btnsnav {
+    margin-left: 20px;
+}
+
+.topo {
+    margin-top: 10px;
+}
+
+.subtitulo {
+    margin-left: 5px;
+}
+
+.listacards {
+    display: flex;
+    gap: 20px;
+    margin-left: 5px; /* Centraliza os cards */
+    margin-right: auto;
+}
+
+.card {
+    margin-left: 5px; /* Margem de 5px à esquerda de cada card */
+}
